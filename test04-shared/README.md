@@ -1,9 +1,11 @@
-use
+use:
+	$ mkdir build
 
-$ mkdir build
-$ cd build
-$ cmake ../ -D BUILD_SHARED_LIBS=ON
-$ make
+	$ cd build
+	
+	$ cmake ../ -D BUILD_SHARED_LIBS=ON
+	
+	$ make
 
 you got shared library
 
