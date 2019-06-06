@@ -13,7 +13,7 @@ set(COMPILER_FLAGS)
 list(APPEND COMPILER_FLAGS "-Wall" "-O3")
 
 if(USE_LIBS) 
-	add_library(sharedhello SHARED ${source_files})
+	add_library(sharedhello ${source_files})
 	set_target_properties(sharedhello PROPERTIES POSITION_INDEPENDENT_CODE 1)
 	add_executable(testprogram main.cpp)
     target_compile_options(testprogram PRIVATE ${COMPILER_FLAGS})
