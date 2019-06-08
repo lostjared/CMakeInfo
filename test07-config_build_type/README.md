@@ -22,10 +22,10 @@ To compile in Release mode use:
 
 Library On/Off and Static or Shared use
 
-USE_LIBS=ON or USE_LIBS=OFF
+USE_LIB=ON or USE_LIB=OFF
 
-or if USE_LIBS is ON
+or if USE_LIB is ON
 
-if USE_LIBS is ON then BUILD_SHARED_LIBS=ON or BUILD_SHARED_LIBS=OFF
+if USE_LIB is ON then BUILD_SHARED_LIBS=ON or BUILD_SHARED_LIBS=OFF
 
 
