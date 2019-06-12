@@ -1,0 +1,4 @@
+/Users/jared/Source/cmake-tests/test02-library/build/CMakeFiles/rebuild_cache.dir
+/Users/jared/Source/cmake-tests/test02-library/build/CMakeFiles/edit_cache.dir
+/Users/jared/Source/cmake-tests/test02-library/build/CMakeFiles/hello-world.dir
+/Users/jared/Source/cmake-tests/test02-library/build/CMakeFiles/catstring.dir
