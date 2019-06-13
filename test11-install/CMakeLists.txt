@@ -19,10 +19,10 @@ set(CMAKE_CXX_STANDARD_REQURIED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 if(CMAKE_BUILD_TYPE STREQUAL "Release")
-list(APPEND COMPILER_FLAGS "-Wall" "-O2")
+list(APPEND COMPILER_FLAGS "-Wall" "-pedantic" "-ansi" "-Ofast")
 else()
 message(STATUS "Debug Mode")
-list(APPEND COMPILER_FLAGS "-Wall" "-g")
+list(APPEND COMPILER_FLAGS "-Wall" "-pedantic" "-ansi")
 endif()
 
 
