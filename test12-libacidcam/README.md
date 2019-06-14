@@ -5,7 +5,7 @@ To build enter directory and
 
 Then configure the project
 
-	$ cmake .. -DBUILD_SHARED_LIBS=YES -DCMX_BUILD_TYPE="Release"
+	$ cmake .. -DBUILD_SHARED_LIBS=YES -DCMAKE_BUILD_TYPE="Release"
 
 	$ make -j4
 
