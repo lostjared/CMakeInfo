@@ -1,6 +1,6 @@
 
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
-project(text2cpp LANGUAGES CXX)
+project(libacidcam LANGUAGES CXX)
 
 if(NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
